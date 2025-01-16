@@ -2,7 +2,7 @@ import { Hero, Trends, Reasons, FAQ, Form, Footer } from './components';
 import LoginPage from './pages/LoginPage';
 
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 
@@ -53,4 +53,4 @@ function App() {
   )
 }
 
-export default App
+export default App 
