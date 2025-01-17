@@ -78,7 +78,7 @@ const Navbar = ({ language, onLanguageChange }) => {
           </div>
 
           <a 
-          href='/#login' 
+          href='#/login' 
           role='button' 
           className='ml-3 px-4 py-2 rounded no-underline leading-4 text-white text-sm font-medium bg-btn-red hover:bg-btn-red-hover'>
             {t('signIn')}
