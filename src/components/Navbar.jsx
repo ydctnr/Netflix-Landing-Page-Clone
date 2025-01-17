@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = ({ language, onLanguageChange }) => {
@@ -77,12 +78,14 @@ const Navbar = ({ language, onLanguageChange }) => {
             </div>
           </div>
 
-          <a 
-          href='/#/login' 
-          role='button' 
-          className='ml-3 px-4 py-2 rounded no-underline leading-4 text-white text-sm font-medium bg-btn-red hover:bg-btn-red-hover'>
+          <Link 
+          to="/#/login">
+            <button
+            role='button' 
+            className='ml-3 px-4 py-2 rounded no-underline leading-4 text-white text-sm font-medium bg-btn-red hover:bg-btn-red-hover'>
             {t('signIn')}
-          </a>
+            </button>
+          </Link>
         
         </div>
 
