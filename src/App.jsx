@@ -17,7 +17,7 @@ function App() {
 
 
   return (
-    <Router>
+    <Router basename="/Netflix-Landing-Page-Clone">
       <div className='w-full flex flex-col justify-center items-center overflow-x-hidden'>
 
         <Routes>
