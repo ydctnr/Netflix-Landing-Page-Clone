@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-# React + Vite
+This is Netflix Landing Page Clone (2025 version)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Here is the live website: https://github.com/ydctnr/Netflix-Landing-Page-Clone.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Netflix-Landing-Page-Clone
->>>>>>> 2463cd9acfbee7abf36b237af9991ab001b717f8
