@@ -232,7 +232,7 @@ const Loginpage = ({ language, onLanguageChange }) => {
           <footer className='flex flex-col gap-4 mt-5'>
             
             <div className='inline-flex items-center'>
-              <div class="checkbox-container">
+              <div className="checkbox-container">
                 <input 
                 type="checkbox" 
                 name='rememberme'

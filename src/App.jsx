@@ -19,7 +19,7 @@ function App() {
       <div className='w-full flex flex-col justify-center items-center overflow-x-hidden'>
         <Routes>
           <Route path="/" element={<HomePage language={language} onLanguageChange={handleLanguageChange} />} />
-          <Route path="/#login" element={<LoginPage language={language} onLanguageChange={handleLanguageChange} />} />        
+          <Route path="/login" element={<LoginPage language={language} onLanguageChange={handleLanguageChange} />} />        
         </Routes>
       </div>
     </Router>
