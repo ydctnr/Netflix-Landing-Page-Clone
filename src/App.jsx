@@ -43,7 +43,7 @@ function App() {
           }
           />
       
-         <Route path="/login" element={<LoginPage language={language} onLanguageChange={handleLanguageChange}/>} />
+         <Route path="/#login" element={<LoginPage language={language} onLanguageChange={handleLanguageChange}/>} />
               
 
         </Routes>
