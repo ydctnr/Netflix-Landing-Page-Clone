@@ -1,4 +1,4 @@
-import { Hero, Trends, Reasons, FAQ, Form, Footer } from './components';
+import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 
 import React, { useState } from 'react';
@@ -17,33 +17,14 @@ function App() {
 
 
   return (
-    <Router basename="/Netflix-Landing-Page-Clone">
+    <Router>
       <div className='w-full flex flex-col justify-center items-center overflow-x-hidden'>
 
         <Routes>
 
-          <Route
-          path="/"
-          element={
-          <>
-
-          <div className='relative w-full z-10'>
-            <Hero language={language} onLanguageChange={handleLanguageChange} />
-          </div>
-
-          <div className='relative z-20 -mt-8 flex flex-col w-full gap-14 lg:gap-16 px-6 md:px-8 lg:px-20 xl:px-[9.25rem]'>
-            <Trends />
-            <Reasons />
-            <FAQ />
-            <Form />
-            <Footer language={language} onLanguageChange={handleLanguageChange} />
-          </div>
-
-          </>
-          }
-          />
+        <Route path="/" element={<HomePage language={language} onLanguageChange={handleLanguageChange}/>} />
       
-         <Route path="/login" element={<LoginPage language={language} onLanguageChange={handleLanguageChange}/>} />
+        <Route path="/login" element={<LoginPage language={language} onLanguageChange={handleLanguageChange}/>} />
               
 
         </Routes>
