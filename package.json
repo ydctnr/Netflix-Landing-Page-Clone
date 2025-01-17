@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/ydctnr/Netflix-Landing-Page-Clone.git",
+  "homepage": "https://ydctnr.github.io/Netflix-Landing-Page-Clone/",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite",
